@@ -1,0 +1,12 @@
+name = "MaHaVo"
+license = "CC BY 3.0"
+licenselink = "https://creativecommons.org/licenses/by/3.0/"
+description = "MakeHackVoid theme, based on Hugo port of the Themefisher’s Infinity Template"
+homepage = "https://github.com/makehackvoid/makehackvoid.com"
+tags = ['hugo-theme', 'bootstrap4']
+features = ['bootstrap4','responsive']
+min_version = "0.58.0"
+
+[author]
+  name = "Make Hack Void"
+  homepage = "https://makehackvoid.com"
