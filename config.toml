@@ -1,4 +1,158 @@
-baseURL = "https://makehackvoid.com"
+baseURL = "//dev.makehackvoid.com"
 languageCode = "en-us"
 title = "Make Hack Void"
 theme = "mahavo"
+
+[params] 
+    # Navigation
+    [params.navigation]
+        logo = "MHV"
+
+        [[params.navigation.navItem]]
+            name = "Our Space"
+            url = "/#space"
+
+        [[params.navigation.navItem]]
+            name = "Regular Meetings"
+            url = "/#meetings"
+
+        [[params.navigation.navItem]]
+            name = "Projects"
+            url = "/#projects"
+
+        [[params.navigation.navItem]]
+            name = "Blog"
+            url = "/#blog"
+
+        [[params.navigation.navItem]]
+            name = "Contact"
+            url = "/#contact"
+
+        [[params.navigation.navItem]]
+            name = "Join"
+            url = "/#join"
+
+        [[params.navigation.navItem]]
+            name = "Wiki"
+            url = "//wiki.makehackvoid.com"
+
+        [[params.navigation.navItem]]
+            name = "Forum"
+            url = "//forum.makehackvoid.com"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/tucana-small.jpg"
+        title       = "Make Hack Void"
+        subtitle    = "Canberra's Community Makerspace"
+        btnText     = "Get Started"
+        countdownYear = "2019"
+        countdownMonth = "12"
+        countdownDay  = "27"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "MakeHackVoid, described by Us Folk magazine as “one of Canberra’s best new creative organisations”, is a makerspace that provides ACT residents with a multi-use workshop and meeting space at 17 Tucana St in Giralang."
+        description = "MakeHackVoid is modeled on an international community of like minded spaces that started in Germany in 1995. It supports and encourages arts, science and technology culture in the ACT by providing a physical space for Canberra residents, as well as national and international visitors to meet, interact and create. We hold public meetups most Tuesdays and an electronics group most Wednesdays from 7:00pm - please check the calendar/tweeter feed for announcements. These meetups are where we invite you to join us and chat, participate in show and tell, get help or advice, or talk about your projects. We are open at other times throughout the week for drop ins, workshops, general hacking and socialising; check the calendar for planned sessions and watch our twitter feed and announce mailing list for notifications of the space opening. Our group includes people with diverse backgrounds and interests. MakeHackVoid is dedicated to a harassment-free experience for everyone. See our Code of conduct.   If you can’t make it to the next meeting then join the conversation on the Forum, follow us on Twitter, Facebook, or join us in the IRC channel."
+
+        [[params.about.sliderItem]]
+            image   = "images/about/1.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/2.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/3.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/2.jpg"
+
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "Find Better Solutions Build Better Products"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "Fully Responsive"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "Speed Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Tons of Feature"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.4s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Fully SEO Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.6s"
+        
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-strategy"
+            title   = "Fully Responsive"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "0.8s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-circle-compass"
+            title   = "Speed Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-anchor2"
+            title   = "Tons of Feature"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-globe"
+            title   = "Fully SEO Optimized"
+            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+            delay   = "1.5s"
+    
+    
+    # Call to Action Section
+    [params.cta]
+        enable      = true
+        bg          = "images/paperwall-small.jpg"
+        title       = "Subscribe to our mailing list"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+    [params.contact]
+        enable      = true
+        title       = "Get In Touch"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
