@@ -6,7 +6,7 @@ theme = "mahavo"
 [params] 
     # Navigation
     [params.navigation]
-        logo = "MHV"
+        logo = "images/mhv-logo.png"
 
         [[params.navigation.navItem]]
             name = "Our Space"
